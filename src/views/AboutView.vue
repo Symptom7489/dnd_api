@@ -1,5 +1,10 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+   <spell-desc/>
 </template>
+
+<script>
+import SpellDesc from "@/components/SpellDesc";
+export default {
+  components: {SpellDesc}
+}
+</script>
